@@ -23,6 +23,10 @@
 - **Frameworks/Bibliotecas:** Como bootstrap.
 - **GitHub Pages:** Como plataforma de despliegue del proyecto.
 
-## Vista Previa
-![vista previa de TechHer](Imagenes\img1.png)
+## Vista Previa del Proyecto
+![Demo](/Imagenes/vistaprevia.png)
+
+## Contacto
+Janeth Cortes:[]
+
 
