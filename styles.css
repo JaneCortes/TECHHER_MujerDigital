@@ -1,0 +1,150 @@
+/* Estilo para el cuerpo */
+body {
+    color: #4b4b4b;
+    padding-top: 70px;
+}
+
+/* Estilo para el texto principal */
+.display-4 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Estilo personalizado para la barra de navegación */
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+    margin-bottom: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+
+}
+
+.navbar-nav .nav-link.active {
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+    font-weight: bold;
+}
+/* Estilo para el texto del banner */
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo para el botón personalizado */
+.custom-btn-width {
+    width: 150px;
+}
+
+/*contedor oculto*/
+.contenedor-invisible{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenido de las imágenes */
+.images p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+/* Estilo personalizado para las imágenes */
+.main-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.images-image {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.profile-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Estilo personalizado para los botones secundarios */
+.btn {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #a18b65;
+}
+
+.img-fluid{
+    max-height:400px;
+}
+
+/* carousel */
+.custom-carousel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.custom-carousel img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/*about me*/
+.about {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.about ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.contenedor-invisible{
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}

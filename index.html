@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH.HER</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ancla para hojas -->
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <!-- Navbar fija -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container position-relative">
+            <a class="navbar-brand" href="#">TECHHER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datos">Datos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">Sobre mi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner principal -->
+    <section class="banner">
+        <div class="container position-relative">
+            <img src="Imagenes/img1.jpg" alt="imagen1" class="main-image">
+            <div class="banner-text text-center">
+                <h1>Rompiendo Barreras y Estereotipos</h1>
+            </div>
+        </div>
+    </section>
+<!-- Sección de imágenes -->
+    <section class="images"> 
+        <div class="container position-relative">
+            <div class="row d-none d-lg-flex">
+                <div class="col-md-6">
+                    <p>En un mundo cada vez más digital, la tecnología se ha convertido en una herramienta clave para impulsar el cambio y la innovación. Sin embargo, la participación de las mujeres en este sector sigue siendo limitada, y es crucial reconocer la importancia de su inclusión para construir un futuro más equitativo y diverso.</p>
+                    <button class="btn btn-secondary mx-auto mb-3 custom-btn-width" id="mostrar" onclick="mostrar()">LEER MAS</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="Imagenes/img2.jpg" alt="imagen2" class="images-image rounded">
+                        </div>
+                        <div class="col-4">
+                            <img src="Imagenes/img3.png" alt="imagen3" class="images-image rounded">
+                        </div>
+                        <div class="col-4">
+                            <img src="Imagenes/img4.png" alt="imagen4" class="images-image rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-lg-none d-flex flex-column align-items-center">
+            <!-- Sección de texto y botón centrados -->
+                <div class="col-12 d-flex flex-column align-items-center ">
+                    <div class="text-center">
+                      <p>En un mundo cada vez más digital, la tecnología se ha convertido en una herramienta clave para impulsar el cambio y la innovación. Sin embargo, la participación de las mujeres en este sector sigue siendo limitada, y es crucial reconocer la importancia de su inclusión para construir un futuro más equitativo y diverso.</p>
+                    </div>
+                      <button class="btn btn-secondary mx-auto mb-3 custom-btn-width" id="mostrar" onclick=" mostrar(); toggleImages();">LEER MAS</button>
+                </div>                
+            <!-- Sección de imágenes debajo del texto, centradas -->
+                <div class="images-container" id="imageContainer" style="display: flex;">
+                    <div class="col-4 mx-1">
+                        <img src="Imagenes/img2.jpg" alt="imagen2" class="images-image rounded">
+                    </div>
+                    <div class="col-4 mx-1">
+                        <img src="Imagenes/img3.png" alt="imagen3" class="images-image rounded">
+                    </div>
+                    <div class="col-4 mx-1">
+                        <img src="Imagenes/img4.png" alt="imagen4" class="images-image rounded">
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+<!--columna invisible-->
+<div class="container my-4 contenedor-invisible bg-light" id="invisible" style="display: none;" >
+    <div class="text-center">
+        <h3>HAGAMOS HISTORIA</h3>
+        <p> <i> "Las mujeres han enfrentado históricamente barreras significativas en la industria tecnológica, desde la falta de representación hasta los estereotipos de género que limitan sus oportunidades. A pesar de estos desafíos, cada vez más mujeres están rompiendo moldes y liderando en campos como la programación, la inteligencia artificial, la ciberseguridad y más. Su participación no solo enriquece la innovación tecnológica, sino que también desafía las normas sociales, abriendo puertas para futuras generaciones."</i></p>
+        <h5>Liderazgo Femenino en Tecnología</h5>
+        <p>El liderazgo femenino en tecnología está en ascenso. Cada vez más mujeres ocupan posiciones clave en empresas tecnológicas, desde startups hasta gigantes de la industria. Estas líderes no solo están cambiando el panorama empresarial, sino que también sirven como modelos a seguir, demostrando que las mujeres pueden y deben tener un lugar en la mesa donde se toman las decisiones más importantes.</p>
+        <h5>Creación de Comunidades y Redes de Apoyo</h5>
+        <p>Las redes de apoyo y las comunidades son esenciales para el crecimiento y el empoderamiento de las mujeres en tecnología. Espacios donde se comparte conocimiento, se ofrece mentoría y se fomenta la colaboración son vitales para que las mujeres superen obstáculos y continúen avanzando en sus carreras tecnológicas.</p>
+        <h5>Un Futuro Inclusivo</h5>
+        <p>El empoderamiento de la mujer en la tecnología no es solo una cuestión de justicia social, sino también de progreso. Un sector tecnológico inclusivo, donde las mujeres tengan un rol activo, es clave para desarrollar soluciones innovadoras que reflejen la diversidad del mundo en el que vivimos. Al apoyar e incentivar la participación femenina, estamos construyendo un futuro donde la tecnología beneficie a todos, sin importar su género.</p>
+    </div>
+</div>
+<!--columna-->
+<div class="container my-3 mb-3 position-relative columna" id="datos">
+    <div class="row d-none d-lg-flex align-items-center profile-card bg-light p-4">
+        <div class="col-md-4">
+            <img src="Imagenes/img5.jpg" alt="imagen5" class="img-fluid rounded ">
+        </div>
+        <div class="col-md-7 ">
+            <h6 class="text-uppercase text-muted">Empoderamiento de la Mujer en la Tecnología</h6>
+            <h2 class="mb-3">Educación y Capacitación</h2>
+            <p class="text-muted medium">El empoderamiento de la mujer en la tecnología comienza con la educación. Iniciativas globales y programas locales están trabajando para reducir la brecha de género al proporcionar acceso a la educación STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) desde una edad temprana. </p>
+            <p>"Estas iniciativas buscan inspirar a más niñas a interesarse por la tecnología, proporcionándoles las herramientas necesarias para tener éxito en un campo en constante evolución."</p>
+        </div>
+    </div>
+    <!-- Diseño para pantallas pequeñas (IMAGEN2) -->
+    <div class="row d-lg-none d-flex flex-column align-items-center profile-card  p-0 ">
+        <!-- Sección de texto y botón centrados -->
+        <div class="col-12 d-flex flex-column align-items-center p-3 ">
+            <img src="Imagenes/img5.jpg" alt="imagen5" class="img-fluid rounded">
+        </div>
+        <!-- Sección de imágenes debajo del texto, centradas -->
+        <div class="col-12 d-flex p-4">
+            <div class=" text-center">
+                <h6 class="text-uppercase text-muted ">Empoderamiento de la Mujer en la Tecnología</h6>
+                <h2 class="mb-3">Educación y Capacitación</h2>
+                <p class="text-muted medium ">El empoderamiento de la mujer en la tecnología comienza con la educación. Iniciativas globales y programas locales están trabajando para reducir la brecha de género al proporcionar acceso a la educación STEM (Ciencia, Tecnología, Ingeniería y Matemáticas) desde una edad temprana. </p>
+                <p>"Estas iniciativas buscan inspirar a más niñas a interesarse por la tecnología, proporcionándoles las herramientas necesarias para tener éxito en un campo en constante evolución."</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--carrusel-->
+<div class="container" id="testimonios">
+    <div id="carouselExampleCaptions" class=" carousel slide custom-carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagenes/1.png" class="d-block w-100" alt="imagen6">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/2.png" class="d-block w-100" alt="imagen7">
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/3.png" class="d-block w-100" alt="imagen8">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!--abour me-->
+<div class="container"id="aboutme">
+    <section class="about ">
+        <div class="about-content">       
+            <h2>Empoderada por MujerDigital</h2>
+            <p>"Este proyecto es el resultado de mi formación en MujerDigital, donde aprendemos a crear, innovar y liderar en el mundo digital."</p>
+            <a href="https://jamujerdigital.org/" class="btn">CONTACTO</a>   
+        </div>
+    </section>
+<!-- footer  -->
+    <footer >
+        <div class="footer-container ">
+            <p>&copy; Con amor Janeth Cortes. All rights reserved.</p>
+        </div>    
+    </footer>
+</div>
+<!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
